@@ -13,13 +13,13 @@ switch (new Date().getDay()) {
     day = "Chorshanba";
     break;
   case 4:
-    day = "Juma";
+    day = "Payshanba";
     break;
   case 5:
-    day = "Shanba";
+    day = "Juma";
     break;
   case  6:
-    day = "Yakshanba";
+    day = "Shanba";
 }
 document.getElementById("demo").innerHTML = day;
 
@@ -27,40 +27,40 @@ let months;
 
 switch (new Date().getMonth()) {
     case 0:
-        months = "1";
+        months = "Yanvar";
         break;
     case 1:
-        months = "2";
+        months = "Fevral";
         break;
     case 2:
-        months = "3";
+        months = "Mart";
         break;
     case 3:
-        months = "4";
+        months = "Aprel";
         break;
     case 4:
-        months = "5";
+        months = "May";
         break;
     case 5:
-        months = "6";
+        months = "Iyun";
         break;    
     case 6:
-        months = "7";
+        months = "Iyul";
         break;
     case 7:
-        months = "8";
+        months = "Avgust";
         break;
     case 8:
-        months = "9";
+        months = "Sentyabr";
         break;
     case 9:
-        months = "10";
+        months = "Oktyabr";
         break;
     case 10:
-        months = "11";
+        months = "Noyabr";
         break;
     case 11:
-        months = "12";
+        months = "Dekabr";
         break;    
     // default:
     //     break;
@@ -77,8 +77,6 @@ let year = new Date().getFullYear()
 
 document.getElementById("yil").innerHTML = year;
 
-// let year = document.getElementById("yil");
 
-// let now = new Date();
-// let dname = now.getFullYear();
+
 

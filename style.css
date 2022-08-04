@@ -30,15 +30,8 @@ body{
     flex-direction: column;
 }
 
-.cal_top{
-    width: 100%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.cal_top h1{
+.calendar h1{
     color: cyan;
 }
 
@@ -46,12 +39,14 @@ body{
 .cal_bottom{
     margin-top: 50px;
     width: 70%;
-    height: 100px;
+    height: 120px;
     padding: 0 25px;
     background: rgba(174,221,146,1);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 80px;
+    box-shadow: 10px 10px 8px rgba(128, 128, 128, 0.624);
 }
 
 .cal_bottom p{
